@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #86c0d1;
+}
+
+.signup-container {
+    background: transparent;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+    max-width: 400px;
+    border: 3px solid black;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: black;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(90, 86, 86);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: grey;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.footer-text a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
